@@ -1,0 +1,50 @@
+body{
+    text-align:center;
+    background-color:skyblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    background-color:navy;
+    color:white;
+}
+#show_sketch:hover{
+    background-color:darkcyan;
+    cursor:pointer;
+}
+
+#show_sketch{
+    float:right;
+    margin-right:10%;
+    font-size:20px;
+}
+
+#referenceIMG{
+    width:75%;
+}
+
+p{
+    margin-left:10%;
+    text-align:left;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#score, #timer{
+    color:blue;
+}
+
+#label, #confidence{
+    color:darkblue;
+}
+
+#what_to_draw{
+    color:rgb(130, 17, 17);
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:-175px;
+    float:right;
+    margin-right:10%;
+}
